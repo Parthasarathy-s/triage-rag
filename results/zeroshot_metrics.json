@@ -1,0 +1,13 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n_eval": 200,
+  "accuracy": 0.535,
+  "macro_f1": 0.48415404809266704,
+  "per_class_f1": {
+    "account": 0.5185185185185185,
+    "billing": 0.5217391304347826,
+    "general": 0.0392156862745098,
+    "shipping": 0.8571428571428571
+  },
+  "latency_ms_per_prediction": 63.542591875011574
+}

@@ -1,0 +1,14 @@
+{
+  "base_model": "distilbert-base-uncased",
+  "epochs": 3,
+  "n_train": 19418,
+  "val": {
+    "eval_accuracy": 0.9995881383855024,
+    "eval_macro_f1": 0.9994812941019837
+  },
+  "test": {
+    "accuracy": 0.999176276771005,
+    "macro_f1": 0.999082613752734
+  },
+  "device": "mps"
+}

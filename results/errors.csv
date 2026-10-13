@@ -1,0 +1,9 @@
+text,intent,label,baseline_pred,finetuned_pred
+I'd like to correct the bloody dadress can i get some help,change_shipping_address,shipping,general,shipping
+solve problems with apyment,payment_issue,billing,account,billing
+how can i tfack purchase {{Order Number}},track_order,shipping,general,general
+deliveryaddress issue,set_up_shipping_address,shipping,billing,shipping
+can ya give me information about an addres update,change_shipping_address,shipping,account,general
+can ya help me contactsomebody,contact_human_agent,general,billing,general
+would you give me information about cancelling orders?,cancel_order,general,account,general
+need help reporting errors with registratons,registration_problems,account,billing,account

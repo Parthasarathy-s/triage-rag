@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and model artifacts (regenerate with the scripts; keep folders via .gitkeep)
+data/raw/
+data/processed/
+models/
+chroma_db/
+results/*.pkl
+results/*.joblib
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+results/finetune_ckpt/
+results/*.log
